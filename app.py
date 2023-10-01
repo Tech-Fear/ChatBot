@@ -69,6 +69,6 @@ def ask():
     return render_template("index.html", user_input=user_input, response=response)
 
 if __name__ == "__main__":
-    filen = "E:\git_learn\ChatBot\qna.csv"  # Replace with your actual dataset file path
+    filen = "qna.csv"  # Replace with your actual dataset file path
     load_custom_dataset(filen)
     app.run(debug=True)
